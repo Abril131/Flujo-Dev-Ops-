@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/api/v1/soaa', (req, res) =>{
-    res.send("Hello, Hola Docker");
+    res.send("Hello, Hola Docker y Nodejs");
 });
 
 app.listen(port, () => {
